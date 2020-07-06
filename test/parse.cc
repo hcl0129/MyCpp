@@ -15,7 +15,7 @@ int main()
         const char quotes = '\"';
         ss << "\t\"InstrumentStore\":" << std::endl;
         ss << "\t{" << std::endl;
-        ss << "\t\t\"Path\": " << quotes << quotes << std::endl;
+        ss << "\t\t\"Path\": {}" << std::endl;
         ss << "\t}" << std::endl;
 		//ss << "\t\"Path\": [1,2,3,4,5]" << std::endl;
 	}
@@ -29,7 +29,7 @@ int main()
 	
 	const std::string name = "InstrumentStore";
 	const std::string fieldname = "Path";
-	std::cout << mJSON.HasMember(name.c_str()) << std::endl;
+	//std::cout << mJSON.HasMember(name.c_str()) << std::endl;
 	
 	//const rapidjson::Value& value = mJSON[fieldname.c_str()];
 
