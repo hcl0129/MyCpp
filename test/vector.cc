@@ -16,4 +16,6 @@ int main()
 		cout << *p << endl;
 	}
 	cout << vec.back() << endl;
+	vector<int> a;
+	cout << a.size() << endl;
 }
