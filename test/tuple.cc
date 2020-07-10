@@ -14,7 +14,5 @@ int main ()
 
 	tuple<string, string> tup = {"123", "12321"};
 
-	//string* p = &get<1>(tuples[0]); 
-	unsigned int i = tuple_size<decltype(tup)>::value;
-	cout << i << endl;
+	cout << get<1>(vec[0]) << endl;
 }
